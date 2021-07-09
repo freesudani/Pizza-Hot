@@ -15,6 +15,11 @@ function Header() {
               Inventore quia molestias tempora nam id, dolor, modi omnis alias
               laboriosam nisi iste esse consectetur laborum
             </p>
+            <div className="banner__btn">
+              <a href="" className="btn btn-smart">
+                DELIVER NOW
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -1,30 +1,28 @@
 import React from "react";
+import ImageLogo from "../images/369e6801bdef4e2991ba262e48243d21.png";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar__text">
         <div className="logo">
-          <img
-            src="../images/369e6801bdef4e2991ba262e48243d21.png"
-            alt="logo"
-          />
+          <img src={ImageLogo} alt="logo" />
         </div>
         <ul className="navbar__ul">
           <li>
-            <a href="">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="">Menu</a>
+            <a href="#">Menu</a>
           </li>
           <li>
-            <a href="">Shop</a>
+            <a href="#">Shop</a>
           </li>
           <li>
-            <a href="">News</a>
+            <a href="#">News</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </div>
