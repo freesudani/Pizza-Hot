@@ -11,7 +11,8 @@ body {
 .banner {
   width: 100%;
   height: 100vh;
-  background: url("./images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("./images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -24,7 +25,8 @@ body {
   color: #fff;
 }
 
-.container {
+.container,
+.container__header {
   width: 1200px;
   max-width: 1200px;
   margin: 0 auto;
@@ -32,6 +34,7 @@ body {
 
 .banner__text {
   width: 500px;
+  margin-top: 30px;
 }
 
 .banner__text h3 {
@@ -42,13 +45,15 @@ body {
   font-size: 80px;
   line-height: 80px;
   font-weight: 900;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .banner__text p {
   font-size: 25px;
   font-weight: 400;
   margin-top: 20px;
+  text-align: justify;
+  width: 95%;
 }
 
 .navbar {
@@ -67,25 +72,27 @@ body {
 }
 
 .logo {
-  width: 40%;
+  width: 30%;
 }
 
 .logo img {
-  width: 120px;
+  width: 100px;
   transform: translateY(30px);
 }
 
 .navbar__ul {
-  width: 60%;
+  width: 70%;
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
+  margin-top: 50px;
 }
 
 .navbar__ul li a {
   text-decoration: none;
   color: #fff;
   padding: 0 15px;
+  margin-right: 20px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -143,7 +150,7 @@ body {
 }
 
 .about h1 {
-  font-size: 40px;
+  font-size: 38px;
   color: #252525;
   font-weight: 700;
   line-height: 40px;
@@ -260,6 +267,32 @@ body {
   margin-top: 15px;
 }
 
+.footer {
+  height: 20vh;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  /* transform: translateY(1px); */
+}
+
+.logo2 {
+  height: 100px;
+}
+
+.react-icons {
+  transform: translateX(50px);
+}
+
+.callus {
+  text-align: center;
+}
+
 @media (max-width: 700px) {
   .navbar__text {
     display: flex;
@@ -271,10 +304,21 @@ body {
   }
   .logo {
     margin-bottom: 20px;
+    margin-top: 20px;
   }
   .container {
     width: 100%;
     padding: 0 30px;
+  }
+
+  .container__header {
+    margin-top: 250px;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .banner {
+    height: 150vh;
   }
 
   .banner__text {
@@ -286,15 +330,57 @@ body {
   }
 
   .banner__text h1 {
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 60px;
     font-weight: 900;
     margin-top: 20px;
   }
 
   .banner__text p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
+  }
+
+  .col-3,
+  .col-4,
+  .col-6 {
+    width: 100%;
+  }
+
+  .client {
+    margin: 20px 0;
+  }
+  .navbar__ul {
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar__ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    margin-right: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .about h1 {
+    font-size: 25px;
+  }
+
+  .shop h1 {
+    font-size: 25px;
+  }
+
+  .menu h1 {
+    font-size: 25px;
+  }
+
+  .footer {
+    height: 30vh;
+  }
+
+  .copyright {
+    text-align: center;
   }
 }

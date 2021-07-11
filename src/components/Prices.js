@@ -67,13 +67,13 @@ function Prices() {
                 <img src={Pizza4} alt="Pizza4" />
               </div>
               <div>
-                <h1 className="price__heading">Pizza Margeritta</h1>
+                <h1 className="price__heading">Double Cheese</h1>
                 <p className="price__text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolores dolorum commodi totam suscipit repellat, culpa at,
                   harum laboriosam ab non, soluta tempore explicabo.
                 </p>
-                <p className="price_rs">$14.09</p>
+                <p className="price_rs">$12.16</p>
               </div>
             </div>
           </div>
@@ -83,13 +83,13 @@ function Prices() {
                 <img src={Pizza5} alt="Pizza5" />
               </div>
               <div>
-                <h1 className="price__heading">Pizza Margeritta</h1>
+                <h1 className="price__heading">Pepporoni and Cheese</h1>
                 <p className="price__text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolores dolorum commodi totam suscipit repellat, culpa at,
                   harum laboriosam ab non, soluta tempore explicabo.
                 </p>
-                <p className="price_rs">$14.09</p>
+                <p className="price_rs">$17.09</p>
               </div>
             </div>
           </div>
@@ -99,13 +99,13 @@ function Prices() {
                 <img src={Pizza6} alt="Pizza6" />
               </div>
               <div>
-                <h1 className="price__heading">Pizza Margeritta</h1>
+                <h1 className="price__heading">Tuna Delight</h1>
                 <p className="price__text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolores dolorum commodi totam suscipit repellat, culpa at,
                   harum laboriosam ab non, soluta tempore explicabo.
                 </p>
-                <p className="price_rs">$14.09</p>
+                <p className="price_rs">$15.50</p>
               </div>
             </div>
           </div>

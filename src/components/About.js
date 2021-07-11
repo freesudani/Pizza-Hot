@@ -8,7 +8,7 @@ function About() {
         <div className="row">
           <div className="col-6 p-25">
             <h3>About us</h3>
-            <h1>WELCOME TO PIZZA HOT</h1>
+            <h1>WELCOME TO PIZZA-HOT</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               illum eveniet dolor adipisci et error excepturi delectus quam

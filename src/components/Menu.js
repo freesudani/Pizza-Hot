@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../images/klara-kulikova-jvWZYnxBDlQ-unsplash.jpg";
+import MenueImg from "../images/fathul-abrar-Gkl43lgpwrU-unsplash.jpg";
 
 function Menu() {
   return (
@@ -8,7 +8,7 @@ function Menu() {
         <div className="row">
           <div className="col-6">
             <div className="about__img">
-              <img src={AboutImg} alt="Pizza" />
+              <img src={MenueImg} alt="Pizza" />
             </div>
           </div>
           <div className="col-6 p-25">
